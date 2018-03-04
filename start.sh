@@ -1,8 +1,9 @@
 #!/bin/bash
 
 cd A
+chmod +x preparing.py
 ./preparing.py
 cd ..
 cmake CMakeLists.txt
 make
-./ABC
+./bot
